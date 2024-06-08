@@ -27,20 +27,20 @@ Adding forever loop
 ```FOREVER():WRITE(myvariable);```
 
 Random example of all features shown
-```
-FN SayHi();
-FN RunFunctions();
-VAR hiText = Hi from Spark;
-VAR anotherText = Spark is very cool! lol just kidding;
-VAR memeboy = Spark users mew in skibidi!;
-VAR laugh = hehe;
-SET FN SayHi = WRITE(hiText);
-SET FN SayHi = WRITE(anotherText);
-SET FN RunFunctions = WRITE(memeboy);
-SET FN RunFunctions = CALL SayHi();
-SET VAR laugh = haha;
-CALL RunFunctions();
-FOREVER():WRITE(laugh);
-```
+
+```FN SayHi();```
+```FN RunFunctions();```
+```VAR hiText = Hi from Spark;```
+```VAR anotherText = Spark is very cool! lol just kidding;```
+```VAR memeboy = Spark users mew in skibidi!;```
+```VAR laugh = hehe;```
+```SET FN SayHi = WRITE(hiText);```
+```SET FN SayHi = WRITE(anotherText);```
+```SET FN RunFunctions = WRITE(memeboy);```
+```SET FN RunFunctions = CALL SayHi();```
+```SET VAR laugh = haha;```
+```CALL RunFunctions();```
+```FOREVER():WRITE(laugh);```
+
 has been under dev of 1 and (1/2) days
 
