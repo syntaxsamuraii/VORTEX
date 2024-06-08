@@ -44,5 +44,15 @@ CALL RunFunctions();
 FOREVER():WRITE(laugh);
 ```
 
+using Spark to make games we will use Octo 
+```FN Update();
+   FN Start();
+   FN Exit();
+   SET FN Start = CreateWindow("NewGame", width(500), height(500));
+   SET FN Update = UpdateWindow(red(255),blue(255), green(255));
+   SET FN Update = DisplayWindow();
+   SET FN Exit = DestoryWindow();
+```
+
 has been under dev of 1 and (1/2) days
 
