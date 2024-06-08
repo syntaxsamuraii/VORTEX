@@ -28,20 +28,19 @@ Adding forever loop
 
 Random example of all features shown
 
-1 - ```FN SayHi();```
-
-2 -```FN RunFunctions();```
-3 -```VAR hiText = Hi from Spark;```
-4 -```VAR anotherText = Spark is very cool! lol just kidding;```
-5 -```VAR memeboy = Spark users mew in skibidi!;```
-6 -```VAR laugh = hehe;```
-7 -```SET FN SayHi = WRITE(hiText);```
-8 -```SET FN SayHi = WRITE(anotherText);```
-9 -```SET FN RunFunctions = WRITE(memeboy);```
-10 -```SET FN RunFunctions = CALL SayHi();```
-11 -```SET VAR laugh = haha;```
-12 -```CALL RunFunctions();```
-13 -```FOREVER():WRITE(laugh);```
+1 - ```FN SayHi()
+FN RunFunctions();
+VAR hiText = Hi from Spark;
+VAR anotherText = Spark is very cool! lol just kidding;
+VAR memeboy = Spark users mew in skibidi!;
+VAR laugh = hehe;
+SET FN SayHi = WRITE(hiText);
+SET FN SayHi = WRITE(anotherText);
+SET FN RunFunctions = WRITE(memeboy);
+SET FN RunFunctions = CALL SayHi();
+SET VAR laugh = haha;
+CALL RunFunctions();
+FOREVER():WRITE(laugh);```
 
 has been under dev of 1 and (1/2) days
 
