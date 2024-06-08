@@ -47,6 +47,7 @@ FOREVER():WRITE(laugh);
 using Spark to make games we will use Octo 
 ```FN Update();
    FN Start();
+   FN Update();
    FN Exit();
    SET FN Start = CreateWindow("NewGame", width(500), height(500));
    SET FN Update = UpdateWindow(red(255),blue(255), green(255));
