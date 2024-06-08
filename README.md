@@ -28,7 +28,8 @@ Adding forever loop
 
 Random example of all features shown
 
-1 - ```FN SayHi()
+```
+FN SayHi()
 FN RunFunctions();
 VAR hiText = Hi from Spark;
 VAR anotherText = Spark is very cool! lol just kidding;
@@ -40,7 +41,8 @@ SET FN RunFunctions = WRITE(memeboy);
 SET FN RunFunctions = CALL SayHi();
 SET VAR laugh = haha;
 CALL RunFunctions();
-FOREVER():WRITE(laugh);```
+FOREVER():WRITE(laugh);
+```
 
 has been under dev of 1 and (1/2) days
 
