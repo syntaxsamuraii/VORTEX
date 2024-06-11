@@ -44,16 +44,41 @@ CALL RunFunctions();
 FOREVER():WRITE(laugh);
 ```
 
-using Spark to make games we will use Octo 
-```FN Update();
-   FN Start();
-   FN Update();
-   FN Exit();
-   SET FN Start = CreateWindow("NewGame", width(500), height(500));
-   SET FN Update = UpdateWindow(red(255),blue(255), green(255));
-   SET FN Update = DisplayWindow();
-   SET FN Exit = DestoryWindow();
+Simple calculator in spark
+```
+VAR a = 0;
+VAR b = 0;
+
+WRITE("Type a number 1 ");
+READ(a);
+WRITE("Type a number 2 ");
+READ(b);
+
+FN add() {
+    WRITE("Added Answer");
+    WRITE(a + b);
+}
+
+FN substract() {
+    WRITE("Substracted Answer");
+    WRITE(a - b);
+}
+
+FN multiply() {
+    WRITE("Multiplied Answer");
+    WRITE(a * b);
+}
+
+FN divide() {
+    WRITE("Divided Answer");
+    WRITE(a / b);
+}
+CALL add();
+CALL substract();
+CALL multiply();
+CALL divide();
 ```
 
 has been under dev of 1 and (1/2) days
+
 
