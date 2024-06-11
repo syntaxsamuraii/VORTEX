@@ -15,7 +15,7 @@ Arithemetic calculations
 Changing value of a variable
 ```SET VAR myvariable = 555;```
 
-Adding actions to functions
+Adding build-in-function to functions
 ```
 FN Lol(){
     WRITE("HAHA");
