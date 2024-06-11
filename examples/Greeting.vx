@@ -1,0 +1,10 @@
+VAR name = yourname;
+FN greet() { 
+  WRITE("Hello!");
+  WRITE(name);
+  WRITE("I am Batman!");
+}
+
+WRITE("Your name ?");
+READ(name);
+CALL greet(); 
