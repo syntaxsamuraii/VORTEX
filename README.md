@@ -1,6 +1,17 @@
 # VORTEX
 A simple programming language hoping to be used for Game dev
 
+-Getting started
+```
+1. Download the zip file
+   2. Extract to get the Exe
+   3. Create a folder on your desktop named VORTEX projects.
+   4. Create a file inside with a name with extension.vx
+   5. Open the interpreter exe
+   6. Put path to your file on the interpreter 
+   7. Your codes output will be shown in the exe itself.
+  ```
+ 
 Printing a text to console
 ```WRITE("Hello World!");```
 
