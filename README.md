@@ -13,7 +13,7 @@ Arithemetic calculations
 
 
 Changing value of a variable
-```SET VAR myvariable = 555;```
+```SET myvariable = 555;```
 
 Adding build-in-function to functions
 ```
